@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myParent"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="改变数量"/>
+
+    <SeekBar
+        android:id="@+id/mSeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="3"
+        android:max="8"
+        />
+
+        <com.example.poppybu.workself.Myone
+            android:id="@+id/OnePercent"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            />
+
+        <com.example.poppybu.workself.Mytwo
+            android:id="@+id/TwoPercent"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            />
+
+        <com.example.poppybu.workself.Mythree
+            android:id="@+id/ThreePercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            />
+
+        <com.example.poppybu.workself.Myfour
+            android:id="@+id/FourPercent"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            />
+
+        <com.example.poppybu.workself.Myfive
+            android:id="@+id/FivePercent"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            />
+
+        <com.example.poppybu.workself.Mysix
+            android:id="@+id/SixPercent"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            />
+
+        <com.example.poppybu.workself.Myseven
+            android:id="@+id/SevenPercent"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            />
+
+        <com.example.poppybu.workself.Myeight
+            android:id="@+id/EightPercent"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            />
+</LinearLayout>
